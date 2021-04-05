@@ -29,6 +29,6 @@ public class Recta {
 		
 		Recta r2 = new Recta(p3,p4);
 		
-		return this.pendiente() == r2.pendiente();
+		return this.pendiente() == r2.pendiente() && r.pendiente() == r2.pendiente(); 
 	}
 }
